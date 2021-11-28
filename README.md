@@ -1,2 +1,3 @@
 # CMakePratice
-CMake Pratice exercise note
+
+《CMake Pratice》和 cmake-examples 练习笔记。
