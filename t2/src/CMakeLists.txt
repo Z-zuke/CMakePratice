@@ -1,0 +1,7 @@
+add_executable(hello_cmake_2 main.cpp)
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+
+INSTALL(TARGETS hello_cmake_2
+        RUNTIME DESTINATION bin)
